@@ -1,0 +1,161 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-regular');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+main{
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  position: fixed;
+  /* right: 0; */
+}
+
+.nav h4{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: small;
+  border-radius: 50px;
+}
+
+.intro{
+  width: 100%;
+  height: 45%;
+  padding: 10px 60px;
+}
+
+.intro h1{
+  font-size: 100px;
+  line-height: 100px;
+  padding: 50px;
+  font-weight: 500;
+  letter-spacing: -5px;
+}
+
+.place{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place h5{
+  font-weight: 400;
+}
+
+.hero-image{
+  width: 98vw;
+  height: 90vh;
+  background-image: url("https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg");
+  background-size: cover;
+}
+
+.about{
+  height: 45vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 60px;
+}
+
+.about h2{
+  width:60%;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+.about-part2{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 3px solid #2222;
+  padding: 0 50px;
+}
+
+.about-part2 h3{
+  font-size: 15px;
+}
+
+.icons i{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.work{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  padding: 30px 50px;
+  border-top: 2px solid #2222;
+  border-bottom: 2px solid #2222;
+}
+
+.w-p-1{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border-right: 2px solid #2222;
+}
+
+.w-p-1 h3{
+  font-size: 15px;
+}
+
+.w-p-2 {
+  width: 60%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.w-p-2 .a{
+  padding: 20px 40px;
+  border-bottom: 2px solid #2222;
+}
+
+.bo{
+  border-right: 2px solid #2222;
+}
+
+
+.a p{
+  font-size: small;
+  margin-top: 5px;
+}
+
+.rest{
+  width: 100%;
+  height: 140vh;
+  display: flex;
+  gap: 150px;
+}
+
+.rest h1{
+  font-size: 6vw;
+}
